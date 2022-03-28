@@ -15,6 +15,15 @@ C++23になっているものは、基本的にcpprefjpでは情報がないの�
 - Sy BrandさんのTweet（adjacent、zip系の解説アリ）
   - https://twitter.com/TartanLlama/status/1505934067023368197?s=20&t=sxBKAM4cAxg4oGH4wIvitA
 
+## Range-v3
+C++の「Ranges Library」は、Range-v3というライブラリを元にして作られています。
+
+つまりRange-v3には、標準ライブラリに入る機能が既に実装されています！
+今すぐ試したい人は、Range-v3を使ってみるのもいいでしょうね！
+
+- Range-v3
+  - https://github.com/ericniebler/range-v3
+
 ## Range Adaptor Objects
 スライドで `v | views::take(5)` とかしていたんですが、このように `|` で繋げられるものは「Range Adaptor Object」と言います。
 
